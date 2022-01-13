@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4C08D827908DEE00A20970 /* Assigment_NoteBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C08D727908DEE00A20970 /* Assigment_NoteBookApp.swift */; };
+		3F4C08DA27908DEE00A20970 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C08D927908DEE00A20970 /* ContentView.swift */; };
+		3F4C08DC27908DF700A20970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4C08DB27908DF700A20970 /* Assets.xcassets */; };
+		3F4C08DF27908DF700A20970 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4C08DE27908DF700A20970 /* Preview Assets.xcassets */; };
+		3F4C08EA27908DF800A20970 /* Assigment_NoteBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C08E927908DF800A20970 /* Assigment_NoteBookTests.swift */; };
+		3F4C08F527908DF800A20970 /* Assigment_NoteBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C08F427908DF800A20970 /* Assigment_NoteBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F4C08E627908DF800A20970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F4C08CC27908DEE00A20970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F4C08D327908DEE00A20970;
+			remoteInfo = "Assigment NoteBook";
+		};
+		3F4C08F127908DF800A20970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F4C08CC27908DEE00A20970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F4C08D327908DEE00A20970;
+			remoteInfo = "Assigment NoteBook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F4C08D427908DEE00A20970 /* Assigment NoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assigment NoteBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4C08D727908DEE00A20970 /* Assigment_NoteBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assigment_NoteBookApp.swift; sourceTree = "<group>"; };
+		3F4C08D927908DEE00A20970 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F4C08DB27908DF700A20970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F4C08DE27908DF700A20970 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F4C08E027908DF700A20970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4C08E527908DF800A20970 /* Assigment NoteBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assigment NoteBookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4C08E927908DF800A20970 /* Assigment_NoteBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assigment_NoteBookTests.swift; sourceTree = "<group>"; };
+		3F4C08EB27908DF800A20970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4C08F027908DF800A20970 /* Assigment NoteBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assigment NoteBookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4C08F427908DF800A20970 /* Assigment_NoteBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assigment_NoteBookUITests.swift; sourceTree = "<group>"; };
+		3F4C08F627908DF800A20970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F4C08D127908DEE00A20970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4C08E227908DF800A20970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4C08ED27908DF800A20970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4C08CB27908DED00A20970 = {
+			isa = PBXGroup;
+			children = (
+				3F4C08D627908DEE00A20970 /* Assigment NoteBook */,
+				3F4C08E827908DF800A20970 /* Assigment NoteBookTests */,
+				3F4C08F327908DF800A20970 /* Assigment NoteBookUITests */,
+				3F4C08D527908DEE00A20970 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F4C08D527908DEE00A20970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F4C08D427908DEE00A20970 /* Assigment NoteBook.app */,
+				3F4C08E527908DF800A20970 /* Assigment NoteBookTests.xctest */,
+				3F4C08F027908DF800A20970 /* Assigment NoteBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F4C08D627908DEE00A20970 /* Assigment NoteBook */ = {
+			isa = PBXGroup;
+			children = (
+				3F4C08D727908DEE00A20970 /* Assigment_NoteBookApp.swift */,
+				3F4C08D927908DEE00A20970 /* ContentView.swift */,
+				3F4C08DB27908DF700A20970 /* Assets.xcassets */,
+				3F4C08E027908DF700A20970 /* Info.plist */,
+				3F4C08DD27908DF700A20970 /* Preview Content */,
+			);
+			path = "Assigment NoteBook";
+			sourceTree = "<group>";
+		};
+		3F4C08DD27908DF700A20970 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F4C08DE27908DF700A20970 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F4C08E827908DF800A20970 /* Assigment NoteBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F4C08E927908DF800A20970 /* Assigment_NoteBookTests.swift */,
+				3F4C08EB27908DF800A20970 /* Info.plist */,
+			);
+			path = "Assigment NoteBookTests";
+			sourceTree = "<group>";
+		};
+		3F4C08F327908DF800A20970 /* Assigment NoteBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F4C08F427908DF800A20970 /* Assigment_NoteBookUITests.swift */,
+				3F4C08F627908DF800A20970 /* Info.plist */,
+			);
+			path = "Assigment NoteBookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F4C08D327908DEE00A20970 /* Assigment NoteBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4C08F927908DF800A20970 /* Build configuration list for PBXNativeTarget "Assigment NoteBook" */;
+			buildPhases = (
+				3F4C08D027908DEE00A20970 /* Sources */,
+				3F4C08D127908DEE00A20970 /* Frameworks */,
+				3F4C08D227908DEE00A20970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assigment NoteBook";
+			productName = "Assigment NoteBook";
+			productReference = 3F4C08D427908DEE00A20970 /* Assigment NoteBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F4C08E427908DF800A20970 /* Assigment NoteBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4C08FC27908DF800A20970 /* Build configuration list for PBXNativeTarget "Assigment NoteBookTests" */;
+			buildPhases = (
+				3F4C08E127908DF800A20970 /* Sources */,
+				3F4C08E227908DF800A20970 /* Frameworks */,
+				3F4C08E327908DF800A20970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F4C08E727908DF800A20970 /* PBXTargetDependency */,
+			);
+			name = "Assigment NoteBookTests";
+			productName = "Assigment NoteBookTests";
+			productReference = 3F4C08E527908DF800A20970 /* Assigment NoteBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F4C08EF27908DF800A20970 /* Assigment NoteBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4C08FF27908DF800A20970 /* Build configuration list for PBXNativeTarget "Assigment NoteBookUITests" */;
+			buildPhases = (
+				3F4C08EC27908DF800A20970 /* Sources */,
+				3F4C08ED27908DF800A20970 /* Frameworks */,
+				3F4C08EE27908DF800A20970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F4C08F227908DF800A20970 /* PBXTargetDependency */,
+			);
+			name = "Assigment NoteBookUITests";
+			productName = "Assigment NoteBookUITests";
+			productReference = 3F4C08F027908DF800A20970 /* Assigment NoteBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F4C08CC27908DEE00A20970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3F4C08D327908DEE00A20970 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					3F4C08E427908DF800A20970 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3F4C08D327908DEE00A20970;
+					};
+					3F4C08EF27908DF800A20970 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3F4C08D327908DEE00A20970;
+					};
+				};
+			};
+			buildConfigurationList = 3F4C08CF27908DEE00A20970 /* Build configuration list for PBXProject "Assigment NoteBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F4C08CB27908DED00A20970;
+			productRefGroup = 3F4C08D527908DEE00A20970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F4C08D327908DEE00A20970 /* Assigment NoteBook */,
+				3F4C08E427908DF800A20970 /* Assigment NoteBookTests */,
+				3F4C08EF27908DF800A20970 /* Assigment NoteBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F4C08D227908DEE00A20970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4C08DF27908DF700A20970 /* Preview Assets.xcassets in Resources */,
+				3F4C08DC27908DF700A20970 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4C08E327908DF800A20970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4C08EE27908DF800A20970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F4C08D027908DEE00A20970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4C08DA27908DEE00A20970 /* ContentView.swift in Sources */,
+				3F4C08D827908DEE00A20970 /* Assigment_NoteBookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4C08E127908DF800A20970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4C08EA27908DF800A20970 /* Assigment_NoteBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4C08EC27908DF800A20970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4C08F527908DF800A20970 /* Assigment_NoteBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F4C08E727908DF800A20970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F4C08D327908DEE00A20970 /* Assigment NoteBook */;
+			targetProxy = 3F4C08E627908DF800A20970 /* PBXContainerItemProxy */;
+		};
+		3F4C08F227908DF800A20970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F4C08D327908DEE00A20970 /* Assigment NoteBook */;
+			targetProxy = 3F4C08F127908DF800A20970 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F4C08F727908DF800A20970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F4C08F827908DF800A20970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F4C08FA27908DF800A20970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Assigment NoteBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 937FDW6JT4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Assigment NoteBook/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kemushi.Assigment-NoteBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F4C08FB27908DF800A20970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Assigment NoteBook/Preview Content\"";
+				DEVELOPMENT_TEAM = 937FDW6JT4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Assigment NoteBook/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kemushi.Assigment-NoteBook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F4C08FD27908DF800A20970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 937FDW6JT4;
+				INFOPLIST_FILE = "Assigment NoteBookTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kemushi.Assigment-NoteBookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assigment NoteBook.app/Assigment NoteBook";
+			};
+			name = Debug;
+		};
+		3F4C08FE27908DF800A20970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 937FDW6JT4;
+				INFOPLIST_FILE = "Assigment NoteBookTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kemushi.Assigment-NoteBookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assigment NoteBook.app/Assigment NoteBook";
+			};
+			name = Release;
+		};
+		3F4C090027908DF800A20970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 937FDW6JT4;
+				INFOPLIST_FILE = "Assigment NoteBookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kemushi.Assigment-NoteBookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assigment NoteBook";
+			};
+			name = Debug;
+		};
+		3F4C090127908DF800A20970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 937FDW6JT4;
+				INFOPLIST_FILE = "Assigment NoteBookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kemushi.Assigment-NoteBookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assigment NoteBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F4C08CF27908DEE00A20970 /* Build configuration list for PBXProject "Assigment NoteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4C08F727908DF800A20970 /* Debug */,
+				3F4C08F827908DF800A20970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4C08F927908DF800A20970 /* Build configuration list for PBXNativeTarget "Assigment NoteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4C08FA27908DF800A20970 /* Debug */,
+				3F4C08FB27908DF800A20970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4C08FC27908DF800A20970 /* Build configuration list for PBXNativeTarget "Assigment NoteBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4C08FD27908DF800A20970 /* Debug */,
+				3F4C08FE27908DF800A20970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4C08FF27908DF800A20970 /* Build configuration list for PBXNativeTarget "Assigment NoteBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4C090027908DF800A20970 /* Debug */,
+				3F4C090127908DF800A20970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F4C08CC27908DEE00A20970 /* Project object */;
+}
